@@ -1,0 +1,46 @@
+docs_list_title: Nav
+docs:
+
+- title: About
+  icon: help_ouline
+  url: 
+
+- title: Home Search
+  icon: search
+  url: /home-search
+
+- title: Blog
+  icon: favorites
+  url: /blog
+
+- title: Email
+  icon: email
+  url: mailto:info@simplylowcountry.com
+
+- title: Seabrook Island
+  icon: home  
+  url: /areas/seabrook-island
+
+- title: Kiawah Island
+  icon: home  
+  url: /areas/kiawah-island
+
+- title: Johns Island
+  icon: home
+  url: /areas/johns-island
+
+- title: West Ashley
+  icon: home
+  url: /areas/west-ashley
+
+- title: North Mount Pleasant
+  icon: home
+  url: /areas/north-mount-pleasant
+
+- title: South Mount Pleasant
+  icon: home
+  url: /areas/south-mount-pleasant
+ 
+- title: Isle of Palms
+  icon: home
+  url: /areas/isle-of-palms

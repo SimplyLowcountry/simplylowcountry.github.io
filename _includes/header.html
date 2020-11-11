@@ -1,0 +1,48 @@
+<header>
+    <nav>
+        <div class="mdc-layout-grid">
+            <div class="mdc-layout-grid__inner">
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+                    <button class="mdc-tab menu" role="tab" aria-selected="true" tabindex="0" onclick="openNav()">
+                        <span class="mdc-tab__content">
+                            <span class="mdc-tab__icon material-icons" id="ham1" aria-hidden="true">menu</span>
+                            <span class="mdc-tab__text-label" id="ham2">menu</span>
+                        </span>
+                        <span class="mdc-tab-indicator">
+                            <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                        </span>
+                        <span class="mdc-tab__ripple"></span>
+                    </button>
+                    <h2 class="mdc-typography--headline2 website-name">Simply Lowcountry</h2>
+                </div>
+            </div>
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <div class="mdc-layout-grid mdc-layout-grid--align-center">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    {% for item in site.data.nav.docs %}
+                        <div class="mdc-layout-grid__cell">
+                            <div class="mdc-tab-bar" role="tablist">
+                                <div class="mdc-tab-scroller">
+                                    <div class="mdc-tab-scroller__scroll-area">
+                                        <div class="mdc-tab-scroller__scroll-content">
+                                            <button class="mdc-tab mdc-tab" role="tab" aria-selected="false" tabindex="-1" onclick="window.location.href = '{{ site.url }}{{ item.url }}';">
+                                                <span class="mdc-tab__content">
+                                                    <span class="mdc-tab__icon material-icons" aria-hidden="true">{{ item.icon }}</span>
+                                                    <span class="mdc-tab__text-label">{{ item.title }}</span>
+                                                </span>
+                                                <span class="mdc-tab-indicator">
+                                                    <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                                                </span>
+                                                <span class="mdc-tab__ripple"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+            </div>
+        </div>
+    </nav>
+</header>
