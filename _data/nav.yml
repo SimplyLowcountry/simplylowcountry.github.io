@@ -24,23 +24,3 @@ docs:
 - title: Kiawah Island
   icon: home  
   url: /areas/kiawah-island
-
-- title: Johns Island
-  icon: home
-  url: /areas/johns-island
-
-- title: West Ashley
-  icon: home
-  url: /areas/west-ashley
-
-- title: North Mount Pleasant
-  icon: home
-  url: /areas/north-mount-pleasant
-
-- title: South Mount Pleasant
-  icon: home
-  url: /areas/south-mount-pleasant
- 
-- title: Isle of Palms
-  icon: home
-  url: /areas/isle-of-palms
