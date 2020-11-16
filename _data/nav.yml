@@ -13,10 +13,6 @@ docs:
   icon: favorites
   url: /blog
 
-- title: Email
-  icon: email
-  url: mailto:rob@simplylowcountry.com
-
 - title: Seabrook Island
   icon: home  
   url: /areas/seabrook-island
