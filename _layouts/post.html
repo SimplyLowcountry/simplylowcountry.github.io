@@ -37,8 +37,8 @@
 </head>
 <body class="mdc-typography">
   {%- include header.html -%}
-  <article class="mdc-layout-grid mdc-layout-grid--align-center" itemscope itemtype="http://schema.org/BlogPosting">
-    <div class="mdc-layout-grid__inner">
+  <main class="mdc-layout-grid mdc-layout-grid--align-center" itemscope itemtype="http://schema.org/BlogPosting">
+    <article class="mdc-layout-grid__inner">
       <header class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
         <h4 class="mdc-typography--headline4" itemprop="name headline">{{ page.title | escape }}</h4>
         <p class="mdc-typography--body1 app-p"><a href="{{ site.url }}">Home</a><i class="material-icons mdc-button__icon">arrow_right</i><a href="{{ site.url }}/blog">Blog</a><i class="material-icons mdc-button__icon">arrow_right</i><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></p>
@@ -56,9 +56,9 @@
         </p>  
         {{ content }}
       </div>
-    </div>
+    </article>
     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-  </article>
+  </main>
 <footer class="mdc-layout-grid mdc-layout-grid--align-center">
   <div align="center" class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
       <img alt="Simply Lowcountry logo." class="slrelogo" src="{{site.url}}/assets/photos/logos/WebsiteBanner.png">
