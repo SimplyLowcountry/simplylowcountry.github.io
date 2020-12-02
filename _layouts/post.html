@@ -35,26 +35,25 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700">
     <script type="text/javascript" src="{{site.url}}/assets/js/nav.js"></script>
 </head>
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
-  </header>
-
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
-  </div>
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</article>
+<body class="mdc-typography">
+  {%- include header.html -%}
+  <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <h4 class="mdc-typography--headline4" itemprop="name headline">{{ page.title | escape }}</h4>
+      <p class="post-meta">
+        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          {{ page.date | date: date_format }}
+        </time>
+        {%- if page.author -%}
+          • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+        {%- endif -%}</p>
+    </header>
+    <div class="post-content e-content" itemprop="articleBody">
+      {{ content }}
+    </div>
+    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  </article>
 <footer class="mdc-layout-grid mdc-layout-grid--align-center">
   <div align="center" class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
       <img alt="Simply Lowcountry logo." class="slrelogo" src="{{site.url}}/assets/photos/logos/WebsiteBanner.png">
@@ -68,4 +67,6 @@
       <p class="mdc-typography--body1"> Copyright Simply Lowcountry 2020 all rights reserved. Simply Lowcountry is a real estate team at the Boulevard Co. Our office is located at: 806 Johnnie Dodds Blvd, Mt Pleasant, SC 29464.<a href="{{ site.url }}/privacy.html">Privacy Policy</a>.</p>
   </div>
 </footer>
+</body>
+</html>
 
