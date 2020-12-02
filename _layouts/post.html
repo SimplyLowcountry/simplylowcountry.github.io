@@ -38,19 +38,25 @@
 <body class="mdc-typography">
   {%- include header.html -%}
   <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-    <header class="post-header">
+    <header class="mdc-layout-grid mdc-layout-grid--align-center">
       <h4 class="mdc-typography--headline4" itemprop="name headline">{{ page.title | escape }}</h4>
-      <p class="post-meta">
+      <p class="mdc-typography--body1 app-p"><a href="{{ site.url }}">Home</a><i class="material-icons mdc-button__icon">arrow_right</i><a href="{{ site.url }}/blog">Blog</a><i class="material-icons mdc-button__icon">arrow_right</i><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></p>
+      <p class="mdc-typography--body1 subtitle">{{ page.description }}</p> 
+      <p class="mdc-typography--body1">
         <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
           {{ page.date | date: date_format }}
         </time>
-        {%- if page.author -%}
-          • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-        {%- endif -%}</p>
+      {%- if page.author -%}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%}</p>
     </header>
-    <div class="post-content e-content" itemprop="articleBody">
-      {{ content }}
+    <div class="mdc-layout-grid mdc-layout-grid--align-center">
+      <div class="mdc-layout-grid__inner">
+        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12" itemprop="articleBody">
+        {{ content }}
+        </div>
+      </div>
     </div>
     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
   </article>
