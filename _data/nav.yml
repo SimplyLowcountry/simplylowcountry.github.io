@@ -9,9 +9,9 @@ docs:
   icon: search
   url: /home-search
 
-- title: Blog
-  icon: favorites
-  url: /blog
+#- title: Blog
+ # icon: favorites
+  # url: /blog
 
 - title: Seabrook Island
   icon: home  
