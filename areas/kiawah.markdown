@@ -1,6 +1,6 @@
 ---
 layout: area
-title: Kiawah Island Real Estate Guide
+title: Kiawah Island Real Estate
 site: Simply Lowcountry
 description: Simply Lowcountry's guide to real estate on Kiawah Island.
 image: ../assets/photos/landscape-pictures/Kiawah Island Club.jpg
