@@ -42,7 +42,7 @@ The Beach Club, located further down the island, is the ocean front pool and bea
 When you are a member of the private club, you’ll also have access to several events and programs throughout the year. Membership to the Kiawah Island Club is offered at a social, sports or golf level. Depending on which level you join, you’ll pay an initiation fee as well as monthly dues. 
 {: class="mdc-typography--body1"}
 
-## The Governors Club
+## The Governor's Club
 
 The Governor’s Club is a separate opportunity through the Kiawah Island Golf Resort for Kiawah residents to have access to the Resort’s amenities. I always tell clients that joining the Governor’s Club is a great value! In addition to discounts on golf, tennis, dining, retail, recreation and spa services, you also get access to 3 of the resort pools (Night Heron Family and Children, and West Beach). 
 {: class="mdc-typography--body1"}
