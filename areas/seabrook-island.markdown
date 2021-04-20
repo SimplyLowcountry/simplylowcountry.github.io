@@ -1,6 +1,6 @@
 ---
 layout: area
-title: Seabrook Island Real Estate Guide
+title: Seabrook Island Real Estate
 site: Simply Lowcountry
 description: Simply Lowcountry's guide to real estate on Seabrook Island.
 image: ../assets/photos/landscape-pictures/seabrook-island-real-estate.jpg
