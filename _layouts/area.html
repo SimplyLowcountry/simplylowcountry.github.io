@@ -2,37 +2,31 @@
 layout: default
 ---
     
-    <header class="mdc-layout-grid mdc-layout-grid--align-center">
+    <header class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
         <h4 class="mdc-typography--headline4">{{ page.title }}</h4>
         <p class="mdc-typography--body1 app-p"><a href="{{ site.url }}">Home</a><i class="material-icons mdc-button__icon">arrow_right</i> <a href="{{ site.url }}/areas">Areas</a><i class="material-icons mdc-button__icon">arrow_right</i>{{ page.title }}</p>
     </header>
-    <main class="mdc-layout-grid mdc-layout-grid--align-center">
-        <section>
+    <section class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
         <img alt="{{ page.image-alt }}" src="{{ page.image }}">
         {{ content }}
-        </section>
-        <section>
-            <h4 class="mdc-typography--headline4">YTD Real Estate Sales</h4>
-
-            <img width="800" height="600" src="{{ page.ytd-sales }}" />
-            <button class="mdc-button mdc-button--raised blog-button" onclick="window.location.href = '{{ page.listings }}';">
-                <div class="mdc-button__ripple"></div>
-                <i class="material-icons mdc-button__icon" aria-hidden="true"
-                >home</i
-                >
-                <span class="mdc-button__label">View Listings</span>
-            </button>
-        </section>
-        <section>
-            <h4 class="mdc-typography--headline4">Inventory</h4>
-
-            <img src="{{ page.inventory }}" />
-            <button class="mdc-button mdc-button--raised blog-button" onclick="window.location.href = '{{ page.listings }}';">
-                <div class="mdc-button__ripple"></div>
-                <i class="material-icons mdc-button__icon" aria-hidden="true"
-                >home</i
-                >
-                <span class="mdc-button__label">View Listings</span>
-            </button>
-        </section>    
-    </main>
+    </section>
+    <section class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+        <h4 class="mdc-typography--headline4">YTD Real Estate Sales</h4>
+        <img width="800" height="600" src="{{ page.ytd-sales }}" />
+        <button class="mdc-button mdc-button--raised blog-button" onclick="window.location.href = '{{ page.listings }}';">
+            <div class="mdc-button__ripple"></div>
+            <i class="material-icons mdc-button__icon" aria-hidden="true"
+            >home</i
+            >
+            <span class="mdc-button__label">View Listings</span>
+        </button>
+        <h4 class="mdc-typography--headline4">Inventory</h4>
+        <img src="{{ page.inventory }}" />
+        <button class="mdc-button mdc-button--raised blog-button" onclick="window.location.href = '{{ page.listings }}';">
+            <div class="mdc-button__ripple"></div>
+            <i class="material-icons mdc-button__icon" aria-hidden="true"
+            >home</i
+            >
+            <span class="mdc-button__label">View Listings</span>
+        </button>
+    </section>
