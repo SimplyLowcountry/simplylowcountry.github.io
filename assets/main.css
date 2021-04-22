@@ -114,6 +114,7 @@ iframe {
 
 h2.mdc-typography--headline2 {
     font-family: 'Bad Script', cursive;
+    text-align: center;
 }
 
 h3.mdc-typography--headline3 {
