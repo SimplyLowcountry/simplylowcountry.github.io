@@ -10,7 +10,6 @@ permalink: /stats/
 
 ![Charleston Single Family Housing Inventory](https://ctarmls.stats.10kresearch.com/infoserv/s-v1/yFEz-w8y?w=640&h=480 "Charleston Single Family Housing Inventory")
 
-
 ## Single Family Median Days on Market
 
 ## Single Family Median Sales Prices
