@@ -12,8 +12,8 @@ permalink: /stats/
 
 ## Single Family Median Days on Market
 
-[Charleston Single Family Median Days on Market](https://ctarmls.stats.10kresearch.com/infoserv/s-v1/yF8R-asA?w=640&h=480 "Charleston Single Family Median Days on Market")
+![Charleston Single Family Median Days on Market](https://ctarmls.stats.10kresearch.com/infoserv/s-v1/yF8R-asA?w=640&h=480 "Charleston Single Family Median Days on Market")
 
 ## Single Family Median Sales Price
 
-[Charleston Single Family Median Sales Price](https://ctarmls.stats.10kresearch.com/infoserv/s-v1/yF86-GPD?w=640&h=480 "Charleston Single Family Median Sales Price")
+![Charleston Single Family Median Sales Price](https://ctarmls.stats.10kresearch.com/infoserv/s-v1/yF86-GPD?w=640&h=480 "Charleston Single Family Median Sales Price")
