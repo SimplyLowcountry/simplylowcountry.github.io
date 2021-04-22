@@ -1,24 +1,9 @@
 @import "{{ site.theme }}";
 
-header.mdc-layout-grid.mdc-layout-grid--align-center {
-    padding-bottom:10px;
-}
+/* Layout Style */
 
-#main-pic {
+body {
     max-width: 800px;
-}
-
-main {
-    max-width:800px;
-}
-
-main.mdc-layout-grid.mdc-layout-grid--align-center {
-    padding-top:0px;
-}
-
-section.mdc-layout-grid.mdc-layout-grid--align-center {
-    padding-top:10px;
-    padding-bottom:10px;
 }
 
 footer {
