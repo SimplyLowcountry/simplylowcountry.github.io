@@ -112,13 +112,6 @@ iframe {
   
 /* Typography Styles */
 
-.mdc-typography--headline2.website-name {
-    font-family: 'Bad Script', cursive;
-    text-align: center;
-    margin-top:5px;
-    margin-bottom:5px;
-}
-
 h2.mdc-typography--headline2 {
     font-family: 'Bad Script', cursive;
 }
