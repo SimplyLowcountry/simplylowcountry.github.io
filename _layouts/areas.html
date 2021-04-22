@@ -10,7 +10,7 @@ layout: default
         {% for page in site.pages %}
             {% if page.layout == 'area' %}
             <article class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
-                <h5 class="mdc-typography--headline5">{{ page.title }}</h5>
+                <h4 class="mdc-typography--headline4">{{ page.title }}</h5>
                 <img alt="{{ page.image-alt }}" src="{{ page.image }}">
                 <button class="mdc-button mdc-button--raised blog-button" onclick="window.location.href = '{{ page.url }}';">
                     <div class="mdc-button__ripple"></div>
