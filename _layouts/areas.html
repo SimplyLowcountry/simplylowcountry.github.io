@@ -1,13 +1,12 @@
 ---
 layout: default
 ---
-<header class="mdc-layout-grid mdc-layout-grid--align-center">
+<header class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
     <h4 class="mdc-typography--headline4">{{page.title }}</h4>
     <p class="mdc-typography--body1 app-p"><a href="{{ site.url }}">Home</a><i class="material-icons mdc-button__icon">arrow_right</i>Areas</p>
-    <p class="mdc-typography--body1 subtitle">{{ page.description }}</p> 
+    <p class="mdc-typography--body1 subtitle">{{ page.description }}</p>
 </header>
-<main class="mdc-layout-grid mdc-layout-grid--align-center">
-    <div class="mdc-layout-grid__inner">
+<main class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
         {% for page in site.pages %}
             {% if page.layout == 'area' %}
             <article class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
@@ -23,5 +22,4 @@ layout: default
             </article>
             {% endif %}
         {% endfor %}
-    </div>
 </main>
