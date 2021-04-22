@@ -89,6 +89,8 @@ li {
 .slrelogo {
     width: 310px;
     height: auto;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 .app-image{
