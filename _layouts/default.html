@@ -3,12 +3,14 @@
 
   {%- include head.html -%}
 
-  <body class="mdc-typography">
+  <body class="mdc-typography mdc-layout-grid">
+    <div class="mdc-layout-grid__inner">
     
       {%- include header.html -%}
         {{ content }}
     {%- include footer.html -%}
-
+      
+   </div> 
   </body>
 
 </html>
