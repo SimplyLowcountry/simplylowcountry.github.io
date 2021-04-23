@@ -5,7 +5,7 @@ description: Charleston, SC real estate statistics from Simply Lowcountry.
 permalink: /stats/
 ---
 <header class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
-    <p class="mdc-typography--body1 app-p"><a href="{{ site.url }}">Home</a><i class="material-icons mdc-button__icon">arrow_right</i>Areas</p>
+    <p class="mdc-typography--body1 app-p"><a href="{{ site.url }}">Home</a><i class="material-icons mdc-button__icon">arrow_right</i>Charleston Market Stats</p>
 </header>
 
 # Charleston Real Estate Market Stats
